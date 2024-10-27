@@ -1,0 +1,95 @@
+@media  screen and (max-width:1225px)
+{
+    .over-left
+    {
+        display: none;
+    }   
+    .over-right
+    {
+        display: none;
+    }  
+    .box p{
+        display: none;
+    };
+   
+}
+
+@media  screen and (max-width:1080px)
+ {
+    #images 
+    {
+    display: none;
+    }
+    #skills
+    {
+        margin-top: -50px;
+    }
+    .tot-skill-container i
+    {
+        top:5px;
+    }
+}
+
+
+@media  screen and (max-width:980px)
+ {
+    #profile
+    {
+       grid-template-columns: 1fr;
+       height: fit-content;  
+    }
+    #txt
+    {
+        width:60vw;
+        height: 40vh;
+        
+    }
+    #profile img{
+        height: 30vh;
+        width: 60vw;
+    };
+}
+
+
+
+@media screen and (max-width:600px) {
+    #skills
+    {
+        grid-template-columns: 1fr;
+        height: 100vh;
+        margin-top: 40px;
+    }
+
+    .skills-container
+    {
+        height: 100%;
+    }
+    #frontend,#backend
+    {
+        height: 300px;
+    }
+
+    #project-container
+    {
+        height: 70%;
+        width: 80%;
+        margin-top: 20px;
+    }
+    .box
+    {
+        height: 500px;
+        width: 70%;
+        margin-top: 50px;
+    }
+    .box p
+    {
+       margin-top: 100px;
+       padding: 5px;
+    }
+  .box
+   {
+   max-height: 300px;
+   overflow: hidden;
+   overflow-y: scroll;
+   }
+}
